@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 315, in script
+    HBlond "Certes, tu as raison Misaki, patati, patata..."
+Exception: Sayer 'HBlond' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 315, in script
+    HBlond "Certes, tu as raison Misaki, patati, patata..."
+  File "renpy/ast.py", line 681, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'HBlond' is not defined.
+
+Windows-10-10.0.22000
+Ren'Py 7.4.7.1862
+SHOWTIME 1.0
+Thu Mar  3 20:50:31 2022
